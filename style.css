@@ -9,27 +9,32 @@ section{
     scroll-snap-type: y mandatory;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-  }
+}
   
-  .section {
+.section {
     width: 100%;
     height: 100vh;
     padding: 10%;
     scroll-snap-align: start;
-  }
+}
 
-  .section1{
+.section1{
     background-color: rgb(178, 27, 248);
-  }
+}
 
-  .section3{
+.section3{
     background-color: rgb(178, 27, 248);
-  }
+}
 
-  .section5{
+.section5{
     background-color: rgb(178, 27, 248);
-  }
-  
-  .pagination a.active {
+}
+
+.pagination a.active {
     transform: scale(1.8);
-  }
+}
+
+.container{
+    margin: 10px auto;
+    width:200px;
+}
