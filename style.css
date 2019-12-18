@@ -1,3 +1,16 @@
+@charset "UTF-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  max-width : 100%;
+  font-family:'游ゴシック体',YuGothic,"游ゴシック","Yu Gothic", sans-serif;
+
+}
 section{
     background-color: #000;
     color: #fff;
@@ -10,7 +23,7 @@ section{
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
-  
+
 .section {
     width: 100%;
     height: 100vh;
@@ -18,13 +31,89 @@ section{
     scroll-snap-align: start;
 }
 
+h1 {
+  font-size:70px;
+}
+.section0 {
+    background-image: url(/Users/yasukoitoi/Desktop/AgmentedHumanity/augmented_humanity/img/top_img.png);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
 .section1{
     background-color: #333;
+}
+
+.about-wrapper p{
+  text-align:left;
+}
+.ex-title{
+  font-weight:bold;
+  font-size: 50px;
+}
+
 }
 
 .section3{
     background-color: #333;
 }
+/*ここからworksのリスト*/
+ {
+
+    /*margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;*/
+}
+.works-list {
+
+  flex-wrap: wrap;
+  justify-content:center;
+  list-style: none;
+}
+.work{
+  float:left;
+  padding-right: 10px;
+  justify-content: center;
+}
+
+.open-btn {
+  background-color: red;
+  width: 200px;
+  height:200px;
+  display：inline-block;
+  border-radius: 50% 50%;
+  cursor: pointer;
+}
+
+.open_btn img{
+  width: 200px;
+  height:200px;
+  border-radius: 50% 50%;
+  cursor: pointer;
+}
+.open_btn:hover{
+  opacity: 0.3;
+  transition-duration: 1s;
+}
+
+.work-caption{
+  margin-bottom: 30px;
+  padding: 10px;
+  color: white;
+
+}
+.work-title{
+  font-size: 15px;
+  text-align: left;
+
+}
+/*ここまでworksのリスト*/
+.section4{
+    background-color: #333;
+}
+
 
 .section5{
     background-color: #333;
@@ -40,5 +129,36 @@ section{
 
 .container{
     margin: 10px auto;
-    width:200px;
+    text-align: center;
 }
+/*以下ポップアップ*/
+.popup-overlay {
+  display:none;
+  border:3px solid #fff;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.7);
+}
+.active{
+  visibility: visible;
+  text-align: center;
+  position: fixed;
+}
+.popup-content {
+  display:none;
+
+}
+.popup-content h2{
+  text-align: left;
+  font-size: 20px;
+}
+.close_btn{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*ここまでポップアップ*/
