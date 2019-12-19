@@ -72,12 +72,13 @@ h1 {
     background-image: url(./img/top_img.png);
     height: 100vh;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
 }
 
 /*==================== about ==================== */
 .section1 {
     background-color: #333;
+
 }
 
 .about-wrapper p {
