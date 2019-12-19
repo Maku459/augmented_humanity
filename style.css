@@ -38,14 +38,15 @@ h1 {
     background-image: url(/Users/yasukoitoi/Desktop/AgmentedHumanity/augmented_humanity/img/top_img.png);
     height: 100vh;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
 }
 .section1{
     background-color: #333;
+
 }
 
 .about-wrapper p{
-  text-align:left;
+  text-align:center;
 }
 .ex-title{
   font-weight:bold;
@@ -53,7 +54,9 @@ h1 {
 }
 
 }
-
+.section2{
+  
+}
 .section3{
     background-color: #333;
 }
