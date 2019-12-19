@@ -55,7 +55,7 @@ h1 {
 
 }
 .section2{
-  
+
 }
 .section3{
     background-color: #333;
@@ -147,6 +147,7 @@ h1 {
 /*以下ポップアップ*/
 .popup-overlay {
   display:none;
+  position: fixed;
   border:3px solid #fff;
   justify-content: center;
   top: 0;
@@ -157,17 +158,20 @@ h1 {
   background:rgba(0,0,0,0.7);
 }
 .active{
-  visibility: visible;
-  text-align: center;
-  position: fixed;
+  display:show;
 }
 .popup-content {
+  color: #fff;
+  background-color: white;
+  width: 180px;
+  height:150px;
+  border-radius: 20px;
   display:none;
-
 }
 .popup-content h2{
   text-align: left;
   font-size: 20px;
+  border-bottom: solid 2px #fff;
 }
 .close_btn{
   color: #fff;
