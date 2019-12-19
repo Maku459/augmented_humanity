@@ -80,14 +80,23 @@ h1 {
 
 }
 
-.about-wrapper p {
+.about-wrapper  {
     text-align: left;
 }
-
+.ninjo {
+  font-size: 40px;
+  font-family: serif;
+  text-align: left;
+}
+.ninjo-mng {
+  font-family: serif;
+  text-align: left;
+  font-size: 20px;
+}
 .ex-title {
     font-weight: bold;
     font-size: 50px;
-    border-bottom: solid white 2px;
+    border-bottom: solid white 0.5px;
 }
 .about-title{
   padding-bottom: 30px;
