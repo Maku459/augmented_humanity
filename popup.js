@@ -1,4 +1,4 @@
-$(".open_btn").on('click', function(){
+$(".btn-img").on('click', function(){
   $(".popup-overlay, .popup-content").addClass("active");
 });
 

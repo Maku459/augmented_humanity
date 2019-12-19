@@ -89,48 +89,61 @@ h1 {
     font-weight: bold;
     font-size: 50px;
 }
-
-
+.about-title{
+  padding-bottom: 30px;
+  text-align: left;
+}
+/* ==================== outline ==================== */
+.section2 dl{
+  text-align: left;
+}
+.section2 dt{
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+/section2 dd{
+  padding
+}
 /* ==================== works ==================== */
 .section3 {
     background-color: #333;
 }
-
-/*ここからworksのリスト*/
-    {
-
-    /*margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;*/
+.container3{
+  padding-top: 0;
 }
+/*ここからworksのリスト*/
 
 .works-list {
-
+    padding-top:0;
+    margin-top: 0;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    text-align: center;
+    padding-left: 35px;
 }
 
 .work {
     float: left;
-    padding-right: 10px;
-    justify-content: center;
+    padding-right:20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .open-btn {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    width: 160px;
+    height: 160px;
     display：inline-block;
     border-radius: 50% 50%;
     cursor: pointer;
 }
 
 .open_btn img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 50% 50%;
     cursor: pointer;
 }
@@ -155,34 +168,39 @@ h1 {
 /*ここまでworksのリスト*/
 
 /*以下ポップアップ*/
-/*以下ポップアップ*/
 .popup-overlay {
   display:none;
   position: fixed;
   border:3px solid #fff;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  z-index: 9999;
+  z-index: 10;
   width: 100%;
   height: 100%;
   background:rgba(0,0,0,0.7);
+  top:0;
+  left:0;
 }
 .active{
   display:show;
 }
 .popup-content {
-  color: #fff;
-  background-color: white;
-  width: 180px;
-  height:150px;
-  border-radius: 20px;
+  width:500px;
+  height:100px;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  margin: -300px 0 0 -250px;
+  z-index:11;
   display:none;
 }
-.popup-content h2{
+.popup-content h2 {
   text-align: left;
   font-size: 20px;
   border-bottom: solid 2px #fff;
+}
+.popup-content p{
+  color: #fff;
+  padding:10px;
+  font-size:18px;
 }
 
 .close_btn {
