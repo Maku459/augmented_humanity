@@ -103,17 +103,21 @@ h1 {
   text-align: left;
 }
 /* ==================== outline ==================== */
+.section2 {
+  padding-left: 5%;
+}
 .section2 dl{
-  text-align: center;
+  text-align: left;
 }
 .section2 dt{
   font-size: 26px;
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 30px;
+  text-align: left;
 }
-/section2 dd{
-  padding
+.section2 dd{
+  text-align: left;
 }
 /* ==================== works ==================== */
 .section3 {
