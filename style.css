@@ -1,3 +1,11 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
 section{
     background-color: #000;
     color: #fff;
@@ -50,11 +58,36 @@ section{
 
 .container{
     margin: 10px auto;
-    width: 200px;
+    width: 60vw;
     text-align: center;
-    font-size: 25px;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.staff__dl{
+    text-align: left;
+    width: 50vw;
+}
+
+.staff__dl dt {
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+    border: solid 1px #fff;
+    padding: 8px;
+    display: block;
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+}
+
+.staff__dl dd {
+    width: 300px;
+    display: block;
+    float: left;
+    margin-left: 80px;
+    margin-top: 5px;
 }
