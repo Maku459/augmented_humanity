@@ -21,9 +21,7 @@ section {
     color: #fff;
 }
 
-h1 {
-    font-size: 70px;
-}
+
 
 .container {
     margin: 10px auto;
@@ -34,6 +32,13 @@ h1 {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    border-bottom: solid 4px;
+    border-image: linear-gradient(to right, #FF00CC 0%, #3300CC 100%);
+    border-image-slice:1;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+
 }
 
 /* ==================== スクロール対応用 ==================== */
@@ -131,7 +136,6 @@ h1 {
     padding-top:0;
     margin-top: 0;
     flex-wrap: wrap;
-    justify-content: center;
     list-style: none;
 }
 
@@ -146,9 +150,9 @@ h1 {
     background-color: white;
     width: 160px;
     height: 160px;
-    display：inline-block;
     border-radius: 50% 50%;
     cursor: pointer;
+    text-align: center;
 }
 
 .open_btn img {
@@ -156,6 +160,7 @@ h1 {
     height: 160px;
     border-radius: 50% 50%;
     cursor: pointer;
+
 }
 
 .open_btn:hover {
