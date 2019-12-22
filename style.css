@@ -95,7 +95,7 @@ h1 {
 }
 .ex-title {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: solid white 0.5px;
 }
 .about-title{
@@ -103,18 +103,20 @@ h1 {
   text-align: left;
 }
 /* ==================== outline ==================== */
+
+
 .section2 dl{
-  text-align: left;
+  text-align: center;
 }
 .section2 dt{
   font-size: 26px;
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 30px;
-  text-align: left;
+  text-align: center;
 }
 .section2 dd{
-  text-align: left;
+  text-align: center;
 }
 /* ==================== works ==================== */
 .section3 {
@@ -131,8 +133,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    text-align: center;
-    padding-left: 35px;
 }
 
 .work {
