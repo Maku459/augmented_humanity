@@ -8,6 +8,7 @@
 
 $('btn').on('click',function(){
     $('.popup-overlay, .popup-content').addClass('active').fadeIn();
+    console.log("a");
 });
 
 $('#close_btn').on('click',function(){
