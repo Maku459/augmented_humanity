@@ -10,6 +10,6 @@ $(document).on('click','.open_btn',function(){
     $('.popup-overlay').addClass('active').fadeIn();
 });
 
-$('#close_btn').on('click',function(){
-    $('.popup-overlay, popup-content').removeClass('active').fadeOut();
+$(document).on('click','.close_btn',function(){
+    $('.popup-overlay').fadeOut();
 });
