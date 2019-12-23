@@ -272,6 +272,41 @@ h1 {
     padding-left: 10px;
 }
 
+/* ==================== Access ==================== */
+.access {
+    display: flex;
+    line-height: 2;
+    position: relative;
+    height: 350px;
+}
+
+.access__map {
+    position: absolute;
+    left: 20%;
+}
+
+.access__description {
+    padding-left: 50px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* ==================== Archive ==================== */
 
 .section7 {
