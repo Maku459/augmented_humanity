@@ -312,3 +312,31 @@ a {
 .section7 {
     background-color: #333;
 }
+
+.archive {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+.archive__column {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.archive__column h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.archive__column p{
+    width: 350px;
+    font-size: 16px;
+}
