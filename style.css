@@ -128,6 +128,7 @@ h1 {
 .section3 {
     background-color: #333;
 }
+
 .container3{
   padding-top: 0;
 }
@@ -161,7 +162,6 @@ h1 {
     height: 160px;
     border-radius: 50% 50%;
     cursor: pointer;
-
 }
 
 .open_btn:hover {
@@ -184,40 +184,40 @@ h1 {
 /*ここまでworksのリスト*/
 
 /*以下ポップアップ*/
-.popup-overlay {
-    display: none;
-    height: 100vh;
-    width: 100%;
-    background: black;
-    opacity: 0.7;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 .active{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.popup-overlay {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
 .popup-content {
-  width:400px;
-  height:400px;
+  width:80vw;
+  height:80vh;
   position: absolute;
   transform: translate(-50%,-50%);
   top:50%;
   left: 50%;
-  margin: -300px 0 0 -250px;
-  z-index:11;
-  background-color: white;
+  color: #000;
+  background-color:#fff;
 }
 .popup-content h2 {
   text-align: left;
   font-size: 20px;
-  border-bottom: solid 2px #fff;
-  color: #fff;
+  color: #000;
 }
 .popup-content p{
-  color: #fff;
+  color: #000;
   padding:10px;
   font-size:18px;
   text-align: left;
