@@ -128,6 +128,7 @@ h1 {
 .section3 {
     background-color: #333;
 }
+
 .container3{
   padding-top: 0;
 }
@@ -161,7 +162,6 @@ h1 {
     height: 160px;
     border-radius: 50% 50%;
     cursor: pointer;
-
 }
 
 .open_btn:hover {
@@ -206,9 +206,9 @@ h1 {
   transform: translate(-50%,-50%);
   top:50%;
   left: 50%;
-  margin: -300px 0 0 -250px;
   z-index:11;
   background-color: white;
+  color: #000;
 }
 .popup-content h2 {
   text-align: left;

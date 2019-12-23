@@ -6,9 +6,8 @@
 //  $(".popup-overlay, .popup-content").removeclass("active");
 //});//
 
-$('btn').on('click',function(){
-    $('.popup-overlay, .popup-content').addClass('active').fadeIn();
-    console.log("a");
+$(document).on('click','.open_btn',function(){
+    $('.popup-overlay').addClass('active').fadeIn();
 });
 
 $('#close_btn').on('click',function(){
