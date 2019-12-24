@@ -2,12 +2,26 @@
 
 <head>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="style.css">
+
   <link href="http://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
   <script type="text/javascript" src="scroll.js"></script>
   <script type="text/javascript" src="popup.js"></script>
+
+<!--　OGP設定用　-->
+  <head prefix="og:url" content=>
+  <meta property="og:title" content="拡張人情展" /＞<br />
+　<meta property="og:type" content="website" />
+　<meta property="og:description" content="早稲田大学文化構想学部　クリエイティブメディアR&Dゼミ主催のゼミ展" />
+  <meta property="og:image" content="./img/ogp.png">
+　<meta property="og:site_name" content="サイト名" />
+　<meta property="og:locale" content="ja_JP" />
+<!--　OGP設定用　-->
+
   <html lang="ja" dir="ltr">
 </head>
 
@@ -65,22 +79,21 @@
                 <h1>Works1</h1>
                 <ul class='works-list'>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class='popup-overlay'>
-                            <div class='popup-content'>
-                                <btn class="close_btn">×</btn>
-                                <h2>animercy</h2>
-                                <p>ぬいぐるみ、車、家電…私たちはそれらに心を見出すことがあります。</p>
-                                <p>そのように、対象に生物らしさを感じる感覚を、アニマシー知覚(有生性-animacy)と言います。</p>
-                                <p>対象生来の有機的な特徴によるボトムアップなアニマシーではなく、感得者自身の内面から湧き上がるトップダウンなアニマシーを再現しました。</p>
-                                <p>この作品では、無機物である”石”に、私たちの情け“mercy”を誘うような表象をまとわせました。この“石”のアニマシーを深読みしてみてはどうでしょう。</p>
-
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class='popup-overlay' id="popup-overlay">
+                        <div class='popup-content' id= "popup-content">
+                          <span class="close_btn" id="close_btn">×</span>
+                          <h2>animercy</h2>
+                          <p>ぬいぐるみ、車、家電…私たちはそれらに心を見出すことがあります。</p>
+                          <p>対峙する物象に生物らしさを感じる感覚を、アニマシー知覚(有生性-animacy)と言います。</p>
+                          <p>本作品では、"生物らしい存在"の有機的な特徴に由来し表出するボトムアップなアニマシーではなく、鑑賞者自身の内面から湧き上がる、トップダウンなアニマシーを再現しました。</p>
+                          <p>無機物である"石"に、私たちの情け、つまり"mercy"を誘うような表象をまとわせた本作品を通して、"石"のアニマシーを深読みしてみてはどうでしょうか。</p>
                         </div>
+                      </div>
                         <!--ここまでポップアップ-->
                         <btn class='open_btn'>
                             <img class='btn-img'
-                                src='./img/works_imgs/animercy(960×960).jpg'>
+                                src='img/animercy(960×960).jpg'>
                         </btn>
                         <div class='work-caption'>
                             <span class='work-title'>animercy</span>
@@ -88,70 +101,86 @@
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2>ドット・フルサト</h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>ドット・フルサト</h2>
+                          <p>今、東京には1400万人もの人々が暮らしていますが、その約半数は地方出身者、つまり東京の外に別の”故郷“を持つ人です。</p>
+                          <p>「ドット・フルサト」は、そういった人々が、故郷の光景を思い出すプロセスをピクセルアートで再現します。</p>
+                          <p>なにかを思い出すとき、脳はいくつもの記憶の断片をかき集め、つなぎ合わせて「思い出」を作り直します。</p>
+                          <p>そのプロセスは、ピクセルアートを描く過程とよく似ています。現実の光景を再構成するため、解像度が低くなってしまう一方で、どこか本物以上に愛着のようなものを宿すのです。</p>
+                          <p>この作品は、東京駅を行き交う人々が故郷を思い出すときに経験するまなざしを追体験することによって、普段とは異なる日本の見え方を提示します。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>ドット・フルサト</span>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                      <btn class='open_btn'>
+                        <img class='btn-img' src='img/ドット・フルサト 正方形イメージ.PNG'>
+                      </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>ドット・フルサト</span>
 
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2>魂の営業マンDJプレイ</h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>魂の営業マンDJプレイ</h2>
+                          <p>「KARAOKE」は日本の偉大な発明の一つであり、今や娯楽の域を越えビジネスの社交場としても用いられるようになりました。</p>
+                          <p>上司や取引先の前でマイクを握り、奇怪なビジネスセンスを求められたビジネスマンは今晩も知恵と努力でその歌声を振り絞ります。</p>
+                          <p>この作品は極東のカルト的文化「ビジネスカラオケ」と、そこで磨かれ受け継がれてきた「カラオケネタ」をインタビューによりあぶり出し、決して表に出ることのなかった日本のビジネスマンの技をDJプレイにより凝縮して再現するものです。</p>
+                          <p>さぞかし奇妙に見えるでしょうが、ビジネスに多くを捧げた人の"魂"も同時に見えてくるはずです。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>魂の営業マンDJプレイ</span>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                      <btn class='open_btn'>
+                        <img src='img/3_eigyouDJ1-1.jpg'>
+                      </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>魂の営業マンDJプレイ</span>
 
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2>しゅぱむ</h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>しゅぱむ</h2>
+                          <p>現代のネット社会においてスマホを持つことはもはや当たり前となっています。</p>
+                          <p>しかし私たちはその"当たり前"に潜んでいる危険性に目を向け、向き合えているのでしょうか。</p>
+                          <p>スパムメールは日常に紛れ込んでいる悪意であり、その文面はいかにも「らしく」書いてあります。</p>
+                          <p>人の興味を引こうとする文章からにじみ出る作家性、そして表現の面白さ………それはまるで一つの滑稽な物語のようです。</p>
+                          <p>スパムメールという物語は詐欺師が一方的に送りつけてくるものであるため、これらに騙される被害者は一見受動的に見えます。</p>
+                          <p>しかし実際にはこの一連の詐欺の構造においてスパムメールの受信者は、メールの開封や返信、その内容の真意の判断など、常に能動的な選択を行なっているのです。</p>
+                          <p>本作品では可愛いRPGゲームの見た目でスパムの面白さを表現する一方、プレイヤーをスパムメールと同じように一方的に能動的な選択画面迫られる状況に置くことで、その面白さと怖さを自分の体験として経験できるような作品となっています。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/スクリーンショット 2019-12-18 00.04.27.png'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>しゅぱむ</span>
-                        </div>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                      <btn class='open_btn'>
+                        <img class='btn-img' src='./img/works_imgs/スクリーンショット 2019-12-18 00.04.27.png'>
+                      </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>しゅぱむ</span>
+                      </div>
                     </li>
                     <!--ここまでの４つで１段-->
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2>写ルンですが</h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>写ルンですが</h2>
+                          <p>お手持ちのスマートフォンで撮った写真を振り返ってみてください。</p>
+                          <p>その中に「これ、なんで撮ったんだろう？」という写真があるそんなあなたに持ってこい！</p>
+                          <p>本日ご紹介するのは、「撮る」という行為に特化した最新のスマートフォン「eyePhone 12 Pro MAX（SIMフリー版）」です。</p>
+                          <p>本製品は「撮る」行為のみを行うことができ、解像度は、人間の眼の限界の人間の眼の解像度となっております。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
                         </btn>
                         <div class='work-caption'>
@@ -160,16 +189,21 @@
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>(非)日常デザイン</h2>
+                          <p>本作品は一風変わったゴミ箱である。</p>
+                          <p>使用者に「楽しい」「面白い」といった感情を喚起させるデザインを施しているのである。</p>
+                          <p>人が近寄れば動き、ゴミを捨てれば光る、まるで生き物のように反応するゴミ箱だ。</p>
+                          <p>ゴミを捨てるといった日常の単純な行為に対して、時に人は「面倒くさい」というマイナス感情を抱く。</p>
+                          <p>しかし、誰もが童心に帰ってしまうような「面白さ」を前にして、人は「面倒くさい」気持ちを忘れ、思わずゴミを捨てたくなってしまうのではないだろうか。</p>
+                          <p>この作品は、使用者の心を柔らかくするような面白みのデザインが、強制でない無意識的なマナーの向上に繋がる可能性を示唆している。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
                             <img class='btn-img' src='./img/works_imgs/3_iihito1-1.jpg'>
                         </btn>
                         <div class='work-caption'>
@@ -178,20 +212,26 @@
                         </div>.
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>Interactive Animation</h2>
+                          <p>コミュニケーションとは何だろうか。</p>
+                          <p>言語的要素のほかにも、非言語的な願望や、共感、想像、沈黙が潜んでおり、私たちの普段の会話に大きな影響を及ぼす。</p>
+                          <p>そういった非言語的ファクターの関わりを目の当たりにする機会は少ない。</p>
+                          <p>今回の実験では、ファクターがどのように生じ発達していくかを可視化するために粘土とアニメーションを使用した。</p>
+                          <p>掴む、ちぎる、刺す、つぶすといった粘土に対するアクションは、過去の個人のリアクションの積み重ねである粘土の造形への反応だ。</p>
+                          <p>あなたが粘土に対して与える変化は作品の一部として映像に残る。</p>
+                          <p>そのリアクションの積み重ねを見ることであなたは何を感じるだろうか。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>Interective Animation</span>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
+                            <img class='btn-img' src='img/3_Interactive Animation(1×1).PNG'>
+                          </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>Interective Animation</span>
 
                         </div>
                     </li>
@@ -201,7 +241,7 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
+                                <h2>オモタミ</h2>
                                 <p></p>
                             </div>
                         </div>
@@ -220,7 +260,7 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
+                                <h2>guestbook.tokyo</h2>
                                 <p></p>
                             </div>
                         </div>
@@ -229,7 +269,7 @@
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
                         </btn>
                         <div class='work-caption'>
-                            <span class='work-title'>署名、個性、書跡</span>
+                            <span class='work-title'>guestbook.tokyo</span>
 
                         </div>
                     </li>
@@ -238,17 +278,19 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>LaserPainting</h2>
+                                <p>本作はLaserPainterという制作環境のもとで制作された作品と、その制作過程を記録したものです。</p>
+                                <p>LaserPainterはレーザー光の軌跡がプロジェクションされるという基本機能のもと、画家が操作可能な様々な描画エフェクトやパラメーターを備えた複雑性を伴うジェネラティブな制作環境です。</p>
+                                <p>この制作環境ではレーザーポインターが筆となり、壁やスクリーンがキャンバスとなります。</p>
+                                <p>画家の筆致や描画から、画家がこの制作環境とどのような関係を築きながらLaserPaintingをおこなっているのかご覧ください。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
                         <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
+                            <img class='btn-img' src='img/石田卒制(1×1).png'>
                         </btn>
                         <div class='work-caption'>
-                            <span class='work-title'>-</span>
-                            <span class='work-english-title'>-</span>
+                            <span class='work-title'>LaserPainting</span>
                         </div>
                     </li>
                     <!--3段目終わり-->
@@ -265,8 +307,12 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>あなたは私の夢を見るか</h2>
+                                <p>スマートフォンやパソコンが広く普及した今日、私たちは場所を選ばずとも膨大な数の画像や映像等を見ることができるようになった。</p>
+                                <p>このようなメディア社会において人は、著名人などの「見られる人」と、彼らを「見る人」の２つに分化する。</p>
+                                <p>一方で、カメラ付きのメディアを介して様々な投稿を「見る人」が、逆に見られていることはないと言い切ってよいのだろうか。</p>
+                                <p>本作は、多くの日本の学生が避けて通ることのできない就職活動をモチーフに、透明化しがちなメディアそのものに意識を向けたMVである。</p>
+                                <p>この余白のあるMVに自身を投影することができた時、映像を見ているはずの自分が逆に見られているかのような感覚が喚起されるのではないだろうか。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
@@ -279,20 +325,22 @@
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>不便益デジタルカメラ</h2>
+                          <p>デジタルデバイスが発達し、誰もが気軽に写真を撮れるこの時代。何枚も連写したその写真、見返しますか？</p>
+                          <p>手軽さゆえに、撮影の本当の価値を見失っていませんか？</p>
+                          <p>本作品はそんな現状に一石を投ずる不便だからこその益を提唱するデジタルカメラである。不便から見つめ直す、新しい撮影のかたち。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>宮崎　遥</span>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
+                            <img class='btn-img' src='img/4_miyazaki_1_1.jpg'>
+                          </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>不便益デジタルカメラ</span>
 
                         </div>
                     </li>
@@ -356,8 +404,12 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>プロット投稿サイト</h2>
+                                <p>スマートフォンが普及し、ネットの世界がより身近になった現代社会において、素人が趣味の一環として創作するウェブ小説の存在感は日々増している。</p>
+                                <p>ネットという手軽で自由な表現の場を得た我々にとって、小説を書くという趣味はより大衆化されたものとなった。</p>
+                                <p>しかし、完成品である小説が多くの人の目に触れる機会を与えられる一方で、小説執筆の準備段階で作成される「プロット」が注目されることはほとんどなかった。</p>
+                                <p>本作品は、そんな「プロット」を投稿・閲覧・コメントするためのウェブサイトとなっている。<p>
+                                <p>今まで日陰の身であった「プロット」を投稿するための場を作り出すことで、新たなウェブ小説の執筆・閲覧体験を創出したい。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
@@ -370,30 +422,41 @@
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>bias-labeled packing</h2>
+                          <p>毎日、誰かが自分の容姿を気にしています。</p>
+                          <p>身体的なジェンダーバイアスが蔓延した社会の中で、こうあるべきと言うバイアスに怯えています。</p>
+                          <p>男性だから高身長でないといけませんか？女性が筋肉質ではダメでしょうか？</p>
+                          <p>バイアスは、ビリビリに破いて捨てましょう。あるいは、笑い飛ばすのが一番です。</p>
+                          <p>日々笑い飛ばせば、レッテルは「くだらないレッテル」に変わるはずです。</p>
+                          <p>毎日、およそ1,180万個の宅配便が開封されています。本作品では、人ではなくこれらの配達される品物たちにレッテルを貼ります。</p>
+                          <p>日々あなたのもとに届く、くだらないレッテルを存分に笑ってください。無抵抗にレッテルを貼られた品物たちは、どこか私たちに似ています。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>bias-labeled packing</span>
-                            <span class='work-english-title'></span>
-                        </div>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
+                            <img class='btn-img' src='img/4_Takahashi.jpg'>
+                          </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>bias-labeled packing</span>
+
+                      </div>
                     </li>
                     <li class='work'>
                         <!--ここにポップアップ内容-->
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>Webサイト窓枠解放運動</h2>
+                                <p>Webサイトは平面なのだろうか？</p>
+                                <p>平面に作られているのは、私たちがパソコンやスマートフォンという画面＝窓枠を通してWebサイトを見ているからである。</p>
+                                <p>Webサイトはその媒体に最適化された形に姿を変化させている。</p>
+                                <p>VRという空間表現媒体を通じてWebサイトを見るとき、私たちは窓枠に囚われる必要はないはずだ。</p>
+                                <p>にも関わらず、現状のVRではパソコンに最適化されたWebサイトの閲覧を強いられている。</p>
+                                <p>この作品は、VRが当たり前になる時代のために、Webサイトを平面の窓枠から解放し、Web体験をアップデートする「新しいVR内Webブラウザ」を提案する。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
@@ -411,8 +474,14 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>須藤　菜々美</h2>
+                                <p>これは大学生を迎えて行った、実際のワークショップの記録である。</p>
+                                <p>国内では毎年、10億着を超える新品の衣服が廃棄されている。価格低下が引き起こす大量生産・大量消費の負の連鎖は、もはや生産者だけの問題ではなくなった。</p>
+                                <p>私たち消費者は、膨大な情報により発信される新しい魅力的なイメージを常に追いかけている。</p>
+                                <p>このシンボル経済により生じている物質性パラドックスこそ、消費の加速化を助長している。</p>
+                                <p>今回は消費に揺らぎを与える一手として、服の改編を主軸にしたワークショップを提案する。</p>
+                                <p>最終学習目標に設定した、「個人と服の関係を持続可能にするアイデアの創出」はどのように実現できるだろうか。</p>
+                                <p>このプロジェクトは、まだ途上だ。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
@@ -430,7 +499,11 @@
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
                                 <h2></h2>
-                                <p></p>
+                                <p>食事とともにその皿のなかにある食べものが登場する詩を味わったなら、舌、目、鼻…あなたの身体は何を感じるでしょうか。</p>
+                                <p>「poemeshi」は詩(poem)を日々のご飯(meshi)の内容に合わせて読むことのできるWebサイトです。</p>
+                                <p>昨今の日本では人々の暮らし方の変化に伴って、一人で食事をすることも日常の一部となってきました。</p>
+                                <p>その新しい”いつもの暮らし“を少し豊かに感じるために、詩を読んでみるのはどうでしょう。</p>
+                                <p>詩を読むことは詩人の感情を追体験することであり、食べものの詩を食事と一緒に読むことで、そこにはいない誰かの感情とテーブルをともにすることができるのではないでしょうか。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
@@ -443,20 +516,21 @@
                         </div>
                     </li>
                     <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
+                      <!--ここにポップアップ内容-->
+                      <div class="popup-overlay">
+                        <div class= "popup-content">
+                          <span class="close-btn">×</span>
+                          <h2>感情サプリ</h2>
+                          <p>近年、ポジティブな感情だけでなく、様々な感情をバランス良く持っていることが”心の健康”とされています。</p>
+                          <p>「感情サプリ」では、あなたが今抱いている感情を診察し、心の健康のために足りていない感情を摂取するためのサプリメントを処方します。</p>
                         </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>神代　真優</span>
+                      </div>
+                          <!--ここまでポップアップ内容-->
+                          <btn class='open_btn'>
+                            <img class='btn-img' src='img/4_kumashiro.PNG'>
+                          </btn>
+                      <div class='work-caption'>
+                        <span class='work-title'>感情サプリ</span>
 
                         </div>
                     </li>
@@ -465,8 +539,15 @@
                         <div class="popup-overlay">
                             <div class="popup-content">
                                 <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
+                                <h2>Emotion sequence</h2>
+                                <p>本作は感情の制御を主題とするSF映像作品です。</p>
+                                <p>映像は「架空の実験の参加者の感情と脳神経活動のデータ」という設定で制作されています。</p>
+                                <p>この架空の実験では、参加者は感情を制御する新技術によって、複数の異なる感情を1秒以下の時間間隔で継起的に経験します。</p>
+                                <p>感情の継起順序は感情間の内的関係性に従って規則的に組み立てられています。</p>
+                                <p>ここでは感情間の内的関係性を「次元モデル」と呼ばれる感情の心理学的モデルに基づいて定義しています。</p>
+                                <p>また、映像中の脳機能画像は参加者の各感情と相関する脳全体の神経活動を表示しています。</p>
+                                <p>これらの脳機能画像は実際の研究データをもとに作成したものです。</p>
+                                <p>以上の本作の特徴は、感情の制御を描いた従来のSF作品には見られないものであるという点で独自性を持っています。</p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
