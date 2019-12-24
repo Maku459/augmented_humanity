@@ -13,7 +13,7 @@
   <script type="text/javascript" src="popup.js"></script>
 
 <!--　OGP設定用　-->
-  <head prefix="og:url" content=>
+  <!--<head prefix="og:url" content=>
   <meta property="og:title" content="拡張人情展" /＞<br />
 　<meta property="og:type" content="website" />
 　<meta property="og:description" content="早稲田大学文化構想学部　クリエイティブメディアR&Dゼミ主催のゼミ展" />
@@ -80,9 +80,11 @@
                 <ul class='works-list'>
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class='popup-overlay' id="popup-overlay">
-                        <div class='popup-content' id= "popup-content">
-                          <span class="close_btn" id="close_btn">×</span>
+
+                      <div id="modal_01" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>animercy</h2>
                           <p>ぬいぐるみ、車、家電…私たちはそれらに心を見出すことがあります。</p>
                           <p>対峙する物象に生物らしさを感じる感覚を、アニマシー知覚(有生性-animacy)と言います。</p>
@@ -91,20 +93,21 @@
                         </div>
                       </div>
                         <!--ここまでポップアップ-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_01">
                             <img class='btn-img'
                                 src='img/animercy(960×960).jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>animercy</span>
-
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_02" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>ドット・フルサト</h2>
                           <p>今、東京には1400万人もの人々が暮らしていますが、その約半数は地方出身者、つまり東京の外に別の”故郷“を持つ人です。</p>
                           <p>「ドット・フルサト」は、そういった人々が、故郷の光景を思い出すプロセスをピクセルアートで再現します。</p>
@@ -114,19 +117,20 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                      <btn class='open_btn'>
+                      <a class="js-modal-open" href="" data-target="modal_02">
                         <img class='btn-img' src='img/ドット・フルサト 正方形イメージ.PNG'>
-                      </btn>
+                      </a>
                       <div class='work-caption'>
                         <span class='work-title'>ドット・フルサト</span>
-
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_03" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>魂の営業マンDJプレイ</h2>
                           <p>「KARAOKE」は日本の偉大な発明の一つであり、今や娯楽の域を越えビジネスの社交場としても用いられるようになりました。</p>
                           <p>上司や取引先の前でマイクを握り、奇怪なビジネスセンスを求められたビジネスマンは今晩も知恵と努力でその歌声を振り絞ります。</p>
@@ -135,19 +139,20 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                      <btn class='open_btn'>
+                      <a class="js-modal-open" href="" data-target="modal_03">
                         <img src='img/3_eigyouDJ1-1.jpg'>
-                      </btn>
+                      </a>
                       <div class='work-caption'>
                         <span class='work-title'>魂の営業マンDJプレイ</span>
-
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_04" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>しゅぱむ</h2>
                           <p>現代のネット社会においてスマホを持つことはもはや当たり前となっています。</p>
                           <p>しかし私たちはその"当たり前"に潜んでいる危険性に目を向け、向き合えているのでしょうか。</p>
@@ -159,19 +164,20 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                      <btn class='open_btn'>
+                      <a class="js-modal-open" href="" data-target="modal_04">
                         <img class='btn-img' src='./img/works_imgs/スクリーンショット 2019-12-18 00.04.27.png'>
-                      </btn>
+                      </a>
                       <div class='work-caption'>
                         <span class='work-title'>しゅぱむ</span>
                       </div>
                     </li>
-                    <!--ここまでの４つで１段-->
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_05" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>写ルンですが</h2>
                           <p>お手持ちのスマートフォンで撮った写真を振り返ってみてください。</p>
                           <p>その中に「これ、なんで撮ったんだろう？」という写真があるそんなあなたに持ってこい！</p>
@@ -180,19 +186,21 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_05">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>写ルンですが</span>
 
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_06" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>(非)日常デザイン</h2>
                           <p>本作品は一風変わったゴミ箱である。</p>
                           <p>使用者に「楽しい」「面白い」といった感情を喚起させるデザインを施しているのである。</p>
@@ -203,19 +211,20 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_06">
                             <img class='btn-img' src='./img/works_imgs/3_iihito1-1.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>(非)日常デザイン</span>
-
                         </div>.
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_07" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>Interactive Animation</h2>
                           <p>コミュニケーションとは何だろうか。</p>
                           <p>言語的要素のほかにも、非言語的な願望や、共感、想像、沈黙が潜んでおり、私たちの普段の会話に大きな影響を及ぼす。</p>
@@ -227,73 +236,52 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                          <a class="js-modal-open" href="" data-target="modal_07">
                             <img class='btn-img' src='img/3_Interactive Animation(1×1).PNG'>
-                          </btn>
+                          </a>
                       <div class='work-caption'>
                         <span class='work-title'>Interective Animation</span>
-
                         </div>
                     </li>
 
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_08" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>オモタミ</h2>
                                 <p></p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_08">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>オモタミ</span>
-
                         </div>
                     </li>
-                    <!--２段目終わり-->
+
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_09" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>guestbook.tokyo</h2>
                                 <p></p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_09">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>guestbook.tokyo</span>
+                        </div>
+                    </li>
 
-                        </div>
-                    </li>
-                    <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2>LaserPainting</h2>
-                                <p>本作はLaserPainterという制作環境のもとで制作された作品と、その制作過程を記録したものです。</p>
-                                <p>LaserPainterはレーザー光の軌跡がプロジェクションされるという基本機能のもと、画家が操作可能な様々な描画エフェクトやパラメーターを備えた複雑性を伴うジェネラティブな制作環境です。</p>
-                                <p>この制作環境ではレーザーポインターが筆となり、壁やスクリーンがキャンバスとなります。</p>
-                                <p>画家の筆致や描画から、画家がこの制作環境とどのような関係を築きながらLaserPaintingをおこなっているのかご覧ください。</p>
-                            </div>
-                        </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='img/石田卒制(1×1).png'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>LaserPainting</span>
-                        </div>
-                    </li>
-                    <!--3段目終わり-->
 
                 </ul>
             </div>
@@ -304,9 +292,10 @@
                 <ul class='works-list'>
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_10" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>あなたは私の夢を見るか</h2>
                                 <p>スマートフォンやパソコンが広く普及した今日、私たちは場所を選ばずとも膨大な数の画像や映像等を見ることができるようになった。</p>
                                 <p>このようなメディア社会において人は、著名人などの「見られる人」と、彼らを「見る人」の２つに分化する。</p>
@@ -316,19 +305,20 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_10">
                             <img class='btn-img' src='./img/works_imgs/米原卒制画像１×１.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>あなたは私の夢を見るか</span>
-
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_11" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>不便益デジタルカメラ</h2>
                           <p>デジタルデバイスが発達し、誰もが気軽に写真を撮れるこの時代。何枚も連写したその写真、見返しますか？</p>
                           <p>手軽さゆえに、撮影の本当の価値を見失っていませんか？</p>
@@ -336,74 +326,82 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                          <a class="js-modal-open" href="" data-target="modal_11">
                             <img class='btn-img' src='img/4_miyazaki_1_1.jpg'>
-                          </btn>
+                          </a>
                       <div class='work-caption'>
                         <span class='work-title'>不便益デジタルカメラ</span>
 
                         </div>
                     </li>
+
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
+                        <div id="modal_12" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
+                                <h2>藤原　奏人</h2>
                                 <p></p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_12">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>藤原　奏人</span>
-
                         </div>
                     </li>
+
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
+                        <div id="modal_13" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
+                                <h2>LaserPainting</h2>
+                                <p>本作はLaserPainterという制作環境のもとで制作された作品と、その制作過程を記録したものです。</p>
+                                <p>LaserPainterはレーザー光の軌跡がプロジェクションされるという基本機能のもと、画家が操作可能な様々な描画エフェクトやパラメーターを備えた複雑性を伴うジェネラティブな制作環境です。</p>
+                                <p>この制作環境ではレーザーポインターが筆となり、壁やスクリーンがキャンバスとなります。</p>
+                                <p>画家の筆致や描画から、画家がこの制作環境とどのような関係を築きながらLaserPaintingをおこなっているのかご覧ください。</p>
+                            </div>
+                        </div>
+                        <!--ここまでポップアップ内容-->
+                        <a class="js-modal-open" href="" data-target="modal_13">
+                            <img class='btn-img' src='img/石田卒制(1×1).png'>
+                        </a>
+                        <div class='work-caption'>
+                            <span class='work-title'>LaserPainting</span>
+                        </div>
+                    </li>
+
+                    <li class='work'>
+                        <!--ここにポップアップ内容-->
+                        <div id="modal_14" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
+                                <h2>藤田　彩人</h2>
                                 <p></p>
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_14">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>藤田　彩人</span>
 
                         </div>
                     </li>
-                    <!--ここまでの４つで１段-->
-                    <li class='work'>
-                        <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
-                                <h2></h2>
-                                <p></p>
-                            </div>
-                        </div>
-                        <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
-                            <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
-                        <div class='work-caption'>
-                            <span class='work-title'>冨岡　夏生</span>
 
-                        </div>
-                    </li>
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_15" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>プロット投稿サイト</h2>
                                 <p>スマートフォンが普及し、ネットの世界がより身近になった現代社会において、素人が趣味の一環として創作するウェブ小説の存在感は日々増している。</p>
                                 <p>ネットという手軽で自由な表現の場を得た我々にとって、小説を書くという趣味はより大衆化されたものとなった。</p>
@@ -413,19 +411,21 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_15">
                             <img class='btn-img' src='./img/works_imgs/4_takedamarie_11.jpeg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>プロット投稿サイト</span>
 
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_16" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>bias-labeled packing</h2>
                           <p>毎日、誰かが自分の容姿を気にしています。</p>
                           <p>身体的なジェンダーバイアスが蔓延した社会の中で、こうあるべきと言うバイアスに怯えています。</p>
@@ -437,19 +437,21 @@
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                          <a class="js-modal-open" href="" data-target="modal_16">
                             <img class='btn-img' src='img/4_Takahashi.jpg'>
-                          </btn>
+                          </a>
                       <div class='work-caption'>
                         <span class='work-title'>bias-labeled packing</span>
 
                       </div>
                     </li>
+
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_17" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>Webサイト窓枠解放運動</h2>
                                 <p>Webサイトは平面なのだろうか？</p>
                                 <p>平面に作られているのは、私たちがパソコンやスマートフォンという画面＝窓枠を通してWebサイトを見ているからである。</p>
@@ -460,9 +462,9 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_17">
                             <img class='btn-img' src='./img/works_imgs/4_sakuma_11.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>Webサイト窓枠解放運動</span>
 
@@ -471,9 +473,10 @@
                     <!--２段目終わり-->
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_18" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>須藤　菜々美</h2>
                                 <p>これは大学生を迎えて行った、実際のワークショップの記録である。</p>
                                 <p>国内では毎年、10億着を超える新品の衣服が廃棄されている。価格低下が引き起こす大量生産・大量消費の負の連鎖は、もはや生産者だけの問題ではなくなった。</p>
@@ -485,9 +488,9 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_18">
                             <img class='btn-img' src='./img/works_imgs/coming_soon_img.jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>須藤　菜々美</span>
 
@@ -495,9 +498,10 @@
                     </li>
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_19" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2></h2>
                                 <p>食事とともにその皿のなかにある食べものが登場する詩を味わったなら、舌、目、鼻…あなたの身体は何を感じるでしょうか。</p>
                                 <p>「poemeshi」は詩(poem)を日々のご飯(meshi)の内容に合わせて読むことのできるWebサイトです。</p>
@@ -507,38 +511,42 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_19">
                             <img class='btn-img' src='./img/works_imgs/4_kahokurimoto(960×960).jpg'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>poemeshi</span>
 
                         </div>
                     </li>
+
                     <li class='work'>
                       <!--ここにポップアップ内容-->
-                      <div class="popup-overlay">
-                        <div class= "popup-content">
-                          <span class="close-btn">×</span>
+                      <div id="modal_20" class='modal js-modal'>
+                        <div class="modal-bg js-modal-close"></div>
+                        <div class='modal-content'>
+                          <a class="js-modal-close" href="">CLOSE</a>
                           <h2>感情サプリ</h2>
                           <p>近年、ポジティブな感情だけでなく、様々な感情をバランス良く持っていることが”心の健康”とされています。</p>
                           <p>「感情サプリ」では、あなたが今抱いている感情を診察し、心の健康のために足りていない感情を摂取するためのサプリメントを処方します。</p>
                         </div>
                       </div>
                           <!--ここまでポップアップ内容-->
-                          <btn class='open_btn'>
+                          <a class="js-modal-open" href="" data-target="modal_20">
                             <img class='btn-img' src='img/4_kumashiro.PNG'>
-                          </btn>
+                          </a>
                       <div class='work-caption'>
                         <span class='work-title'>感情サプリ</span>
 
                         </div>
                     </li>
+
                     <li class='work'>
                         <!--ここにポップアップ内容-->
-                        <div class="popup-overlay">
-                            <div class="popup-content">
-                                <span class="close-btn">×</span>
+                        <div id="modal_21" class='modal js-modal'>
+                          <div class="modal-bg js-modal-close"></div>
+                          <div class='modal-content'>
+                            <a class="js-modal-close" href="">CLOSE</a>
                                 <h2>Emotion sequence</h2>
                                 <p>本作は感情の制御を主題とするSF映像作品です。</p>
                                 <p>映像は「架空の実験の参加者の感情と脳神経活動のデータ」という設定で制作されています。</p>
@@ -551,9 +559,9 @@
                             </div>
                         </div>
                         <!--ここまでポップアップ内容-->
-                        <btn class='open_btn'>
+                        <a class="js-modal-open" href="" data-target="modal_21">
                             <img class='btn-img' src='img/works_imgs/4_ODA（1×1）.png'>
-                        </btn>
+                        </a>
                         <div class='work-caption'>
                             <span class='work-title'>Emotion sequence</span>
                         </div>

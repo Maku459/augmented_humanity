@@ -1,15 +1,18 @@
-//$(document).on('click', '.open_btn',function(){
-  //$(".popup-overlay, .popup-content").addClass("active");
-//});
 
-//$(document).on("click",".close_btn",function(){
-  //$(".popup-overlay, .popup-content").removeclass("active");
-//});//
 
-$(document).on('click','.open_btn',function(){
-    $('.popup-overlay').addClass('active').fadeIn();
+$(document).ready(function(){
+  $('.js-modal-open').each(function(){
+    $(this).on('click', function(){
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+      $(modal).fadeIn();
+      return false;
+    });
+  });
 });
-
-$(document).on('click','.close_btn',function(){
-    $('.popup-overlay').fadeOut();
+$(document).ready(function(){
+  $('.js-modal-close').on('click', function(){
+    $('.js-modal').fadeOut();
+    return false;
+  });
 });
