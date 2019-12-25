@@ -251,9 +251,10 @@ img {
     position: relative;
     text-align: left;
     width: 40%;
+    font-size: 20px;
+    vertical-align: top;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
 }
 
 .staff__table th:after{
@@ -273,6 +274,11 @@ img {
     width: 60%;
     font-size: 16px;
     padding-left: 10px;
+    vertical-align: top;
+}
+
+.staff__table span {
+    display: inline-block;
 }
 
 /* ==================== Access ==================== */
@@ -304,6 +310,7 @@ img {
 
 .amu {
     width: 100px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -392,9 +399,10 @@ a {
   }
 
   .work {
-    height: 165px;
+    height: 140px;
     width: 100px;
     padding: 0 5px;
+    margin-right: 13px;
   }
 
   .js-modal-open img {
@@ -406,8 +414,24 @@ a {
     font-size: 11px;
   }
 
+  .work-caption {
+    width: 150%;
+    margin-left: -20px;
+}
+
+.modal-content {
+    width: 80vw;
+    padding: 20px 30px;
+}
+
   .staff__table th {
     font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 20px; 
+}
+
+.staff__table th:after {
+    top: calc(50% - 15px);
 }
 
 .staff__table td {
@@ -416,9 +440,31 @@ a {
 }
 
   .access__map {
-    width: 230px;
-    max-width: 230px;
+    width: 90vw;
     height: 200px;
-  }
+    margin-bottom: 40px;
+}
+
+  .access__description {
+    font-size: 12px;
+}
+
+.access__description p {
+    width: 90vw;
+}
+
+.archive__column {
+    margin-bottom: 10px;
+}
+
+.archive__column h2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.archive__column p {
+    font-size: 12px;
+}
 
 }
