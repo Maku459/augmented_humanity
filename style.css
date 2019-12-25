@@ -8,6 +8,7 @@ html {
 
 body {
     margin: 0px;
+    -webkit-text-size-adjust: 100%;
 }
 
 
@@ -31,6 +32,7 @@ section {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    border: transparent 0px solid;
     border-bottom: solid 6px;
     border-image: linear-gradient(to right, #FF00CC 0%, #3300CC 100%);
     border-image-slice:1;
