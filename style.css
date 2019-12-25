@@ -162,8 +162,11 @@ img {
 .date__table td {
     text-align: left;
     width: 60%;
-    font-size: 16px;
+    font-size: 19px;
     padding: 50px 20px 20px 50px;
+}
+.date__table a:hover{
+  cursor: pointer;
 }
 /* ==================== works ==================== */
 .section3 {
@@ -391,6 +394,7 @@ a {
 }
 
 @media screen and (max-width:768px) {
+  
 .staff__table th:after{
     display: block;
     content: "";
@@ -405,7 +409,7 @@ a {
 .date__table th:after{
     display: block;
     content: "";
-    width: 60px;
+    width: 20px;
     height: 2px;
     background-color: #fff;
     position: absolute;
@@ -429,6 +433,7 @@ a {
  .about-wrapper {
    width: 90vw;
    min-width: 350px;
+   position: relative;
  }
  .date__table {
    min-width: 350px;
@@ -478,7 +483,7 @@ a {
   .staff__table th {
     font-size: 16px;
     padding-top: 0px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .staff__table th:after {
@@ -487,7 +492,8 @@ a {
 
   .staff__table td {
     font-size: 12px;
-    width: 30%;
+    width: 40%;
+    position: relative;
 }
 
   .date__table th {
@@ -497,6 +503,7 @@ a {
   .date__table td {
     font-size: 15px;
     width: 30%;
+    position:relative;
 }
 
   .access__map {
