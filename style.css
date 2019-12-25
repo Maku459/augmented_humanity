@@ -90,12 +90,15 @@ img {
 /*==================== about ==================== */
 .section1 {
     background-color: #333;
-
 }
 
 .about-wrapper  {
     text-align: left;
 }
+.about-wrapper p {
+  font-size: 16px;
+  }
+
 .ninjo {
   font-size: 40px;
   font-family: serif;
@@ -106,19 +109,11 @@ img {
   text-align: left;
   font-size: 20px;
 }
-.ex-title {
-    font-weight: bold;
-    font-size: 40px;
-    border-bottom: solid white 0.5px;
-}
-.about-title{
-  padding-bottom: 30px;
-  text-align: left;
-}
+
 /* ==================== outline ==================== */
 
 
-.section2 dl{
+/*.section2 dl{
   text-align: center;
 }
 .section2 dt{
@@ -130,6 +125,44 @@ img {
 }
 .section2 dd{
   text-align: center;
+  font-size: 20px;
+}*/
+
+
+.date__table{
+    padding-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    width: 60%;
+}
+
+.date__table th {
+    position: relative;
+    text-align: left;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.date__table th:after{
+    display: block;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top:calc(50% - 0px);
+    right:20px;
+    height: 3px;
+  }
+
+.date__table td {
+    text-align: left;
+    width: 60%;
+    font-size: 16px;
+    padding: 50px 20px 20px 50px;
 }
 /* ==================== works ==================== */
 .section3 {
@@ -176,13 +209,11 @@ img {
     margin-bottom: 30px;
     padding: 10px;
     color: white;
-
 }
 
 .work-title {
     font-size: 15px;
     text-align: left;
-
 }
 /*ここまでworksのリスト*/
 
@@ -241,7 +272,7 @@ img {
     background-color: #333;
 }
 
-.staff__table {
+.staff__table{
     padding-left: 20%;
     margin-left: auto;
     margin-right: auto;
@@ -362,7 +393,18 @@ a {
     top:calc(50% - 0px);
     right:20px;
     height: 3px;
-} 
+}
+.date__table th:after{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top:calc(50% - 0px);
+    right:20px;
+    height: 3px;
+}
 
   html {
       font-size: 12px;
@@ -372,6 +414,18 @@ a {
       font-size: 30px;
       width: 80vw;
   }
+  .about-wrapper p{
+    font-size: 13px;
+    position: relative;
+  }
+ .about-wrapper {
+   width: 90vw;
+   min-width: 350px;
+ }
+ .date__table {
+   min-width: 350px;
+   width: 90%
+ }
 
   .ninjo {
     font-size: 30px;
@@ -385,10 +439,6 @@ a {
       font-weight: bold;
       font-size: 30px;
       border-bottom: solid white 0.5px;
-  }
-
-  .section2 dt{
-    font-size: 20px;
   }
 
   .work {
@@ -410,8 +460,17 @@ a {
     font-size: 16px;
 }
 
-.staff__table td {
+  .staff__table td {
     font-size: 12px;
+    width: 30%;
+}
+
+  .date__table th {
+    font-size: 16px;
+}
+
+  .date__table td {
+    font-size: 15px;
     width: 30%;
 }
 
@@ -420,5 +479,6 @@ a {
     max-width: 230px;
     height: 200px;
   }
+
 
 }
