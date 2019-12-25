@@ -43,6 +43,12 @@ h1 {
     text-align: center;
 }
 
+img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* ==================== スクロール対応用 ==================== */
 .fullPageScroll {
     width: 100%;
@@ -137,7 +143,8 @@ h1 {
 
 .works-list {
     flex-wrap: wrap;
-    display: absolute;
+    display: flex;
+    justify-content: center;
     list-style: none;
     padding:0 auto;
     margin:0 auto;
@@ -235,14 +242,15 @@ h1 {
 }
 
 .staff__table {
-    width: 100%;
     padding-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .staff__table th {
     position: relative;
     text-align: left;
-    width: 25%;
+    width: 40%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -262,7 +270,7 @@ h1 {
 
 .staff__table td {
     text-align: left;
-    width: 85%;
+    width: 60%;
     font-size: 16px;
     padding-left: 10px;
 }
@@ -270,25 +278,32 @@ h1 {
 /* ==================== Access ==================== */
 .access {
     display: flex;
+    justify-content: center;
     line-height: 2;
     position: relative;
-    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .access__map {
-    position: absolute;
-    left: 20%;
+    width: 430px;
+    max-width: 430px;
+    height: 400px;
 }
 
 .access__description {
     padding-left: 50px;
     text-align: left;
-    position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    left: 50%;
     font-size: 16px;
+    width: 400px;
+    height: 0px;
+}
+
+.amu {
+    width: 100px;
 }
 
 h2 {
@@ -310,6 +325,7 @@ a {
 
 .archive {
     display: flex;
+    justify-content: center;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -332,6 +348,77 @@ a {
 }
 
 .archive__column p{
-    width: 350px;
     font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+.staff__table th:after{
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top:calc(50% - 0px);
+    right:20px;
+    height: 3px;
+} 
+
+  html {
+      font-size: 12px;
+  }
+
+  h1 {
+      font-size: 30px;
+      width: 80vw;
+  }
+
+  .ninjo {
+    font-size: 30px;
+  }
+  .ninjo-mng {
+    font-family: serif;
+    text-align: left;
+    font-size: 12px;
+  }
+  .ex-title {
+      font-weight: bold;
+      font-size: 30px;
+      border-bottom: solid white 0.5px;
+  }
+
+  .section2 dt{
+    font-size: 20px;
+  }
+
+  .work {
+    height: 165px;
+    width: 100px;
+    padding: 0 5px;
+  }
+
+  .js-modal-open img {
+    width: 100px;
+    height: 90px;
+}
+
+  .work-title {
+    font-size: 11px;
+  }
+
+  .staff__table th {
+    font-size: 16px;
+}
+
+.staff__table td {
+    font-size: 12px;
+    width: 30%;
+}
+
+  .access__map {
+    width: 230px;
+    max-width: 230px;
+    height: 200px;
+  }
+
 }
