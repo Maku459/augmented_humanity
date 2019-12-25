@@ -364,22 +364,13 @@ a {
     height: 3px;
 } 
 
-.js-modal-open img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .js-modal-open2 img {
-    width: 100px;
-    height: 100px;
-  }
-
   html {
       font-size: 12px;
   }
 
   h1 {
       font-size: 30px;
+      width: 80vw;
   }
 
   .ninjo {
@@ -402,12 +393,27 @@ a {
 
   .work {
     height: 165px;
-    width: 165px;
+    width: 100px;
+    padding: 0 5px;
   }
+
+  .js-modal-open img {
+    width: 100px;
+    height: 90px;
+}
 
   .work-title {
     font-size: 11px;
   }
+
+  .staff__table th {
+    font-size: 16px;
+}
+
+.staff__table td {
+    font-size: 12px;
+    width: 30%;
+}
 
   .access__map {
     width: 230px;
