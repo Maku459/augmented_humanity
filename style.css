@@ -43,6 +43,12 @@ h1 {
     text-align: center;
 }
 
+img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* ==================== スクロール対応用 ==================== */
 .fullPageScroll {
     width: 100%;
@@ -273,6 +279,7 @@ h1 {
     line-height: 2;
     position: relative;
     height: 350px;
+    margin-top: 30px;
 }
 
 .access__map {
@@ -314,12 +321,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
+    margin-top: 30px;
 }
 
 .archive__column {
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
     line-height: 2;
 }
 
@@ -332,6 +339,7 @@ a {
 }
 
 .archive__column p{
-    width: 350px;
     font-size: 16px;
+    text-align: left;
+    margin-bottom: 2rem;
 }
