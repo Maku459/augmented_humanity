@@ -98,6 +98,8 @@ img {
 }
 .about-wrapper p {
   font-size: 16px;
+  line-height: 2;
+  margin-bottom: 0px;
   }
 
 .ninjo {
@@ -142,7 +144,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
-    width: 18%;
+    width: 100px;
 }
 
 .date__table th:after{
@@ -396,6 +398,38 @@ a {
 }
 
 /* =============================================== */
+/* ==================== タブレット ==================== */
+/* =============================================== */
+
+@media screen and (min-width:768px) and (max-width:1033px) {
+    .js-modal-open img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container3 {
+        width: 95vw;
+    }
+    
+    .container4 {
+        width: 95vw;
+    }
+    
+
+    .work {
+        float: left;
+        padding: 0 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .date__table {
+        width: 100%;
+    }
+
+}
+
+/* =============================================== */
 /* ==================== スマホ ==================== */
 /* =============================================== */
 
@@ -460,7 +494,6 @@ a {
 
 .date__table td {
     font-size: 15px;
-    width: 30%;
     position:relative;
 }
 
