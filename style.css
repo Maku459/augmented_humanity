@@ -451,7 +451,6 @@ a {
 /* ==================== About ==================== */
 
 .about-wrapper {
-    width: 85vw;
     height: 80vh;
     position: relative;
     overflow: scroll;
@@ -497,6 +496,7 @@ a {
 .date__table td {
     font-size: 15px;
     position:relative;
+    padding: 10px 20px 10px 20px;
 }
 
 /* ==================== Work ==================== */
