@@ -13,6 +13,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #060A18;
 }
 
 * {
@@ -515,6 +516,10 @@ a {
     width: 95vw;
 }
 
+.container4 h1 {
+    margin-bottom: 15px;
+}
+
 .work {
     height: 140px;
     width: 95px;
@@ -576,6 +581,10 @@ a {
 
 .access__description p {
     width: 90vw;
+}
+
+.access__description h2 {
+    padding-top: 0px;
 }
 
 /* ==================== Archive ==================== */
