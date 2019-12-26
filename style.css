@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 /* ==================== 共通 ==================== */
+:root{
+    --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial,'Oswald','Noto Sans JP', sans-serif;
+    --font-family-monospace: "Helvetica Neue", Helvetica, Arial,'Noto Sans JP', monospace;
+}
+
 html {
     font-family: 'Noto Sans JP', sans-serif;
     max-width: 100%;
