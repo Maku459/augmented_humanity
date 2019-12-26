@@ -520,15 +520,26 @@ a {
     margin-bottom: 15px;
 }
 
-.work {
+.container3 .work {
     height: 140px;
     width: 95px;
     padding: 0 5px;
     margin-right: 13px;
 }
 
-.work-title {
+.container4 .work {
+    height: 130px;
+    width: 95px;
+    padding: 0 5px;
+    margin-right: 13px;
+}
+
+.container3 .work-title {
     font-size: 11px;
+}
+
+.container4 .work-title {
+    font-size: 10px;
 }
 
 .work-caption {
