@@ -451,9 +451,9 @@ a {
         width: 80vw;
     }
 
-    /* .section {
+    .section {
         padding-top: 3px;
-    } */
+    }
 
 
 /* ==================== About ==================== */
@@ -504,7 +504,7 @@ a {
 .date__table td {
     font-size: 15px;
     position:relative;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 /* ==================== Work ==================== */
