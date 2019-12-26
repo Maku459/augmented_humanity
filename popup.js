@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
   $('.js-modal-open').each(function(){
     $(this).on('click', function(){
