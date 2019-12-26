@@ -108,6 +108,7 @@ img {
 }
 .ninjo-mng {
   text-align: left;
+  display: inline-block;
 }
 
 /* ==================== outline ==================== */
@@ -316,6 +317,7 @@ img {
     width: 60%;
     font-size: 16px;
     padding-left: 10px;
+    padding-top: 16px;
     vertical-align: top;
 }
 
@@ -444,9 +446,9 @@ a {
         width: 80vw;
     }
 
-    .section {
+    /* .section {
         padding-top: 3px;
-    }
+    } */
 
 /* ==================== About ==================== */
 
