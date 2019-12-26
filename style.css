@@ -236,7 +236,6 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
-  box-shadow: inset 0 0 15px 15px #AAAAAA;
   border: none;
   overflow: scroll;
 }
@@ -410,6 +409,10 @@ a {
     h1 {
         font-size: 30px;
         width: 80vw;
+    }
+
+    .section {
+        padding-top: 3px;
     }
 
 /* ==================== About ==================== */
