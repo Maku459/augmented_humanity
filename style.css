@@ -461,49 +461,10 @@ a {
     position:relative;
 }
 
-<<<<<<< HEAD
-  h1 {
-      font-size: 30px;
-      width: 80vw;
-  }
-  .about-wrapper p{
-    font-size: 16px;
-    position: relative;
-  }
- .about-wrapper {
-   padding: 15px;
-   min-width: 350px;
-   position: relative;
-   background-color: #222222;
-   border-radius: 5px;
-   box-shadow:  inset 0 0 15px 15px #444444;
-   overflow-y: scroll;
-   height: 80vh;
- }
- .date__table {
-   min-width: 350px;
-   width: 90vw
- }
-
-  .ninjo {
-    font-size: 24px;
-  }
-  .ninjo-mng {
-    font-family: serif;
-    text-align: left;
-    font-size: 12px;
-  }
-  .ex-title {
-      font-weight: bold;
-      font-size: 30px;
-      border-bottom: solid white 0.5px;
-  }
-=======
 /* ==================== Work ==================== */
 .container3 {
     width: 95vw;
 }
->>>>>>> 53f14f6728c90d1f35ed21ac51cf9497c8e78626
 
 .container4 {
     width: 95vw;
