@@ -108,7 +108,6 @@ img {
 }
 .ninjo-mng {
   text-align: left;
-  font-size: 20px;
 }
 
 /* ==================== outline ==================== */
@@ -453,8 +452,11 @@ a {
 
 .about-wrapper {
     width: 85vw;
+    height: 80vh;
     position: relative;
-  }
+    overflow: scroll;
+    top: -10px;
+}
  
 .about-wrapper p{
     font-size: 13px;
@@ -467,7 +469,7 @@ a {
 }
 .ninjo-mng {
     text-align: left;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 /* ==================== Outline ==================== */
@@ -570,8 +572,13 @@ a {
 }
 
 /* ==================== Archive ==================== */
+.archive {
+    height: 70vh;
+}
+
 .archive__column {
-    margin-bottom: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .archive__column h2 {
@@ -581,7 +588,7 @@ a {
 }
 
 .archive__column p {
-    font-size: 12px;
+    display: none;
 }
 
 
