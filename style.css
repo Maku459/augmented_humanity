@@ -408,6 +408,10 @@ a {
         height: 120px;
     }
 
+    .section0 {
+        background-image: url(./img/web_top_img2_sp.png);
+    }
+
     .container3 {
         width: 95vw;
     }
@@ -449,6 +453,7 @@ a {
     /* .section {
         padding-top: 3px;
     } */
+
 
 /* ==================== About ==================== */
 
