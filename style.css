@@ -262,7 +262,10 @@ img {
   text-align: left;
   color: black;
 }
-
+.work-members p {
+  text-align:center;
+  color:#555555;
+}
 .modal-bg {
   background: rgba(0,0,0,0.8);
   height: 100vh;
@@ -417,11 +420,11 @@ a {
     .container3 {
         width: 95vw;
     }
-    
+
     .container4 {
         width: 95vw;
     }
-    
+
 
     .work {
         float: left;
@@ -446,7 +449,7 @@ a {
     html {
         font-size: 12px;
     }
-  
+
     h1 {
         font-size: 30px;
         width: 80vw;
@@ -469,7 +472,7 @@ a {
     overflow: scroll;
     top: -10px;
 }
- 
+
 .about-wrapper p{
     font-size: 13px;
     position: relative;
