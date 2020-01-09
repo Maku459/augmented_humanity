@@ -171,6 +171,11 @@ img {
   cursor: pointer;
 }
 
+.date__table span {
+    display: inline-block;
+    padding-left: 3px;
+}
+
 /* ==================== works ==================== */
 .container3{
   padding-top: 0;
@@ -440,10 +445,74 @@ a {
 }
 
 /* =============================================== */
+/* ================== タブレット =================== */
+/* =============================================== */
+
+@media screen and (max-width:1024px) {
+/* ==================== About ==================== */
+    .about-wrapper p {
+        font-size: 18px;
+    }
+
+/* ==================== Outline ==================== */
+    .date__table td {
+        width: 50%;
+    }
+
+    .date__table th {
+        left: 80px;
+    }
+
+    .date__table th:after {
+        right: 100px;
+    }
+
+/* ==================== Works ==================== */
+    .modal-content {
+        height: 80%;
+        width: 80%;
+    }
+
+/* ==================== Staff ==================== */
+    .staff__table th {
+        padding-bottom: 25px;
+    }
+
+    .staff__table th:after {
+        top: calc(50% - 7px);
+    }
+
+/* ==================== Access ==================== */
+    .access__map {
+        width: 430px;
+        max-width: 430px;
+        height: 400px;
+        margin-bottom: 45px;
+    }
+
+/* ==================== Archive ==================== */
+    .archive__column {
+        text-align: center;
+    }
+
+    .archive__column img {
+        width: 75%;
+    }
+
+    .archive__column h2 {
+        padding-bottom: 10px;
+    }
+
+    .archive__column p {
+        margin-bottom: 2rem;
+    }
+}
+
+/* =============================================== */
 /* ==================== スマホ ==================== */
 /* =============================================== */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
 /* ==================== 共通 ==================== */
     html {
