@@ -61,7 +61,7 @@ img {
     overflow: hidden;
     padding: 0;
     margin: auto;
-    width: 200px;
+    width: 112px;
   }
   .follow-me li {
     float: left;
@@ -601,6 +601,7 @@ a {
 
 .date__table th {
     font-size: 16px;
+    left: 0px;
 }
 
 .date__table th:after{
