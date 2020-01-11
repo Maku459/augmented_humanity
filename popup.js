@@ -15,3 +15,16 @@ $(document).ready(function(){
     return false;
   });
 });
+
+$(document).ready(function(){
+  $('.language-switch').on('click',function(){
+    if($('.jp-caption').is(':visible')){
+      $('.jp-caption').hide();
+      $('.en-caption').fadeIn();
+    }else{
+      $('.en-caption').hide();
+      $('.jp-caption').fadeIn();
+    }
+    return false;
+  })
+})
