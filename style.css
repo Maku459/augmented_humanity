@@ -85,11 +85,11 @@ img {
   .follow-me li a:hover::before {
     opacity: 0.7;
   }
-  .follow-me li a[href*="twitter.com"]::before{ 
-      background-color: #55acee; content: "\f099"; 
+  .follow-me li a[href*="twitter.com"]::before{
+      background-color: #55acee; content: "\f099";
 }
 .follow-me li a[href*="instagram.com"]::before {
-     background-color: #bd228b; content: "\f16d"; 
+     background-color: #bd228b; content: "\f16d";
 }
 
 /* ==================== スクロール対応用 ==================== */
@@ -238,7 +238,7 @@ img {
 }
 .works-language-switch a{
   display: inline-block;
-  margin-right: 0 0 0 auto;
+  margin: 0 0 0 auto;
   color: white;
   border: white solid 0.5px;
   padding: 5px 10px;
@@ -333,11 +333,10 @@ img {
 .modal-content a {
     color: #444444;
     font-size: 20px;
-    margin: 5px 0;
-    text-align: ;
+    margin: 0 0 0 auto;
     display: inline-block;
     padding: 5px 10px;
-    margin: 0 0 0 auto;
+    float:right;
 }
 .modal-content a:hover {
   opacity: 0.6;
