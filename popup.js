@@ -21,9 +21,13 @@ $(document).ready(function(){
     if($('.jp-caption').is(':visible')){
       $('.jp-caption').hide();
       $('.en-caption').fadeIn();
+      $('.jp-about').hide();
+      $('.en-about').fadeIn();
     }else{
       $('.en-caption').hide();
       $('.jp-caption').fadeIn();
+      $('.en-about').hide();
+      $('.jp-about').fadeIn();
     }
     return false;
   })

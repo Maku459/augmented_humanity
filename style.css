@@ -150,6 +150,10 @@ img {
   display: inline-block;
 }
 
+.en-about{
+    display:none;
+}
+
 /* ==================== outline ==================== */
 
 
