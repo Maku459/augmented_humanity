@@ -305,7 +305,6 @@ img {
 
 .jp-caption{
     top: 40px;
-    position: relative;
 }
 
 .en-caption{
@@ -355,7 +354,6 @@ img {
 .modal-top {
     display: flex;
     height: 32px;
-    position: relative;
 }
 
 .language-switch {
