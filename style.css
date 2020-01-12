@@ -714,7 +714,15 @@ a {
     padding: 20px 30px;
 }
 
+.language-switch {
+    border: none;
+}
+
 .jp-caption {
+    margin-top: 40px;
+}
+
+.en-caption {
     margin-top: 40px;
 }
 
