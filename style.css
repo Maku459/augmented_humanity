@@ -57,10 +57,10 @@ img {
 
 .follow-me {
     list-style: none;
-    margin: 0 0 -8px;
     overflow: hidden;
     padding: 0;
     margin: auto;
+    margin-top: 15px;
     width: 112px;
   }
   .follow-me li {
@@ -510,7 +510,7 @@ a {
 @media screen and (max-width:1024px) {
 /* ==================== About ==================== */
     .about-wrapper p {
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 
 /* ==================== Outline ==================== */
@@ -527,6 +527,12 @@ a {
     }
 
 /* ==================== Works ==================== */
+
+.js-modal-open img {
+    width: 150px;
+    height: 150px;
+}
+
     .modal-content {
         height: 80%;
         width: 80%;
