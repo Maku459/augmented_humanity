@@ -336,11 +336,9 @@ img {
 }
 .modal-content a {
     color: #444444;
-    font-size: 20px;
-    margin: 0 0 0 auto;
     display: inline-block;
     padding: 5px 10px;
-    float:right;
+    float: right;
 }
 .modal-content a:hover {
   opacity: 0.6;
@@ -348,6 +346,20 @@ img {
   text-decoration: none;
 }
 
+.modal-top {
+    display: flex;
+}
+
+.language-switch {
+    margin: 0 0 0 auto;
+    border: #444444 solid 0.5px;
+    font-size: 14px;
+}
+
+.js-modal-close {
+    margin: 0 0 0 0;
+    font-size: 16px;
+}
 
 
 /*ここまでポップアップ*/
