@@ -348,6 +348,7 @@ img {
 
 .modal-top {
     display: flex;
+    height: 32px;
 }
 
 .language-switch {
