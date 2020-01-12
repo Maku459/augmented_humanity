@@ -303,10 +303,6 @@ img {
   overflow: scroll;
 }
 
-.jp-caption{
-    top: 40px;
-}
-
 .en-caption{
   display:none;
 }
@@ -716,6 +712,10 @@ a {
 .modal-content {
     width: 80vw;
     padding: 20px 30px;
+}
+
+.jp-caption {
+    margin-top: 40px;
 }
 
 /* ==================== Staff ==================== */
