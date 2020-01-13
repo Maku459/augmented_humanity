@@ -702,6 +702,10 @@ a {
 .work-caption {
     width: 150%;
     margin-left: -20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
 }
 
 .js-modal-open img {
