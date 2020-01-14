@@ -60,7 +60,6 @@ img {
     overflow: hidden;
     padding: 0;
     margin: auto;
-    margin-top: 15px;
     width: 112px;
   }
   .follow-me li {
@@ -271,6 +270,11 @@ img {
     margin-bottom: 30px;
     padding: 10px;
     color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 35px;
+    width: 165px;
 }
 
 .work-title {
@@ -511,17 +515,14 @@ a {
         box-sizing: border-box;
     }
 
+    .work-caption {
+        width: 175px;
+    }
+
     .date__table {
         width: 100%;
     }
 
-}
-
-/* =============================================== */
-/* ================== タブレット =================== */
-/* =============================================== */
-
-@media screen and (max-width:1024px) {
 /* ==================== About ==================== */
     .about-wrapper p {
         font-size: 1.2rem;
@@ -664,6 +665,10 @@ a {
     padding: 10px 20px 0px 20px;
 }
 
+.follow-me{
+    margin-top: 15px;
+}
+
 /* ==================== Work ==================== */
 .container3 {
     width: 95vw;
@@ -702,6 +707,10 @@ a {
 .work-caption {
     width: 150%;
     margin-left: -20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
 }
 
 .js-modal-open img {
